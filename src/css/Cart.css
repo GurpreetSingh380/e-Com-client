@@ -1,0 +1,55 @@
+.cartBound{
+    min-height: 75vh;
+}
+.cart{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: hsl(350, 11%, 57%);
+    margin: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px 15px;
+    color: rgb(63, 48, 48);
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.right{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right>div{
+    font-size: 25px;
+}
+
+.right>button{
+    font-size: 18px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: beige;
+    border: 1px solid hwb(0 59% 30%);
+}
+
+.right>button:hover{
+    background-color: bisque;
+    box-shadow: 0 4px 8px #967646;
+}
+
+.thanks{
+    font-size: 25px;
+    margin: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #967646;
+}
+
+@media(max-width: 568px){
+    .wrapper{
+        flex-direction: column;
+    }
+}

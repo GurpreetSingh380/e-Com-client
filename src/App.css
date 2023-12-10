@@ -1,0 +1,105 @@
+
+.relProds{
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    margin: 14px;
+    background-image: linear-gradient(to right, hwb(0 71% 24%), rgb(247, 225, 180));
+    width: 70vw;
+    border-radius: 3px;
+}
+.myFooter{
+    display: flex;
+    min-height: 50px;
+    background-image: linear-gradient(to right, hsl(0, 11%, 56%) , hsl(60, 64%, 85%));
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+.pnf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 83vh;
+}
+.pnf > div{
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.four{
+    font-size:xx-large
+}
+.main{
+    min-height: 83vh;
+}
+.inside-forms{
+    min-width: 220px;
+    min-height: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.inside-forms-heading{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bucket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 83vh;
+}
+.dashHead{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: oblique;
+    box-shadow:#bed3d3 1px 5px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 2px;
+}
+.myBtn{
+    width: 180px;
+    height: 40px;
+    margin: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    color: #000;
+    font-size: large;
+    font-family: monospace;
+    font-weight: 500;
+    background-color: burlywood;
+}
+
+.myBtn:hover{
+    background-color: rgba(36, 25, 12, 0.76);
+    color: hsl(0, 24%, 81%);
+}
+
+.st1{
+    min-width: 250px;
+    border: 1px solid grey;
+}
+
+.st2{
+    min-height: 81vh;
+    border: 1px solid grey;
+}
+
+
+.scrollmenu2{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: hsl(180, 35%, 93%);
+}
+
+main{
+    flex: 1;
+}
+
+.wrapper-category{
+    min-height: 83vh;
+}

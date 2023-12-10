@@ -1,0 +1,29 @@
+.display{
+    display: grid;
+    grid-gap: 80px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    margin: 10px auto;
+}
+.items{
+    margin: 5px 3px;
+}
+.card-title-dup-main{
+    min-height: 76px;
+}
+.categBound, .priceBound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.6rem;
+}
+
+.priceBound{
+    flex-direction: column;
+}
+
+@media(max-width: 568px){
+    .categBound{
+        flex-direction: column;
+    }
+}

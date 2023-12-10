@@ -1,0 +1,11 @@
+.wrapper-grid{
+    display: grid;
+    min-height: 83vh;
+    background-color: #eee5d9;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
+.items-grid{
+    background-color: #d8e6e6;
+    border: 1px solid #69674e;
+}
